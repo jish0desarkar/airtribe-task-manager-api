@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
+const host = "0.0.0.0"
 
 app.use(express.json())
 
@@ -8,4 +9,4 @@ app.use(express.json())
 const taskRouter = require('./routes/tasks')
 app.use('/tasks', taskRouter)
 
-app.listen(port, () => console.log(`Server started! listening on port ${port}!`))
+app.listen(port, host, () => console.log(`Server started! listening on port ${port}!`))
