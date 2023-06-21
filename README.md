@@ -7,13 +7,13 @@ This is a simple RESTful API for a task manager application built using Node.js,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-task-manager-api.git
+   git clone https://github.com/jish0desarkar/airtribe-task-manager-api.git
    ```
 
 2. Install the dependencies:
 
    ```bash
-   cd simple-task-manager-api
+   cd airtribe-task-manager-api
    npm install
    ```
 
