@@ -26,7 +26,7 @@ This is a simple RESTful API for a task manager application built using Node.js,
    The API will be accessible at `http://localhost:3000`. 
 ## Endpoints
 
-#### API is accessible via - `https://airtribe-task-manager-api.onrender.com/`
+#### API is accessible via - `https://airtribe-task-manager-api.up.railway.app`
 
 The API provides the following endpoints:
 
@@ -239,7 +239,7 @@ To sort tasks by creation date in descending order, append the following query p
 
 ## Testing
 
-You can test the API using Postman or Curl. Make sure the server is running locally or accessible at  `https://airtribe-task-manager-api.onrender.com/`.
+You can test the API using Postman or Curl. Make sure the server is running locally or accessible at  `https://airtribe-task-manager-api.up.railway.app`.
 
 ## Conclusion
 
